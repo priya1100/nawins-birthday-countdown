@@ -1,0 +1,62 @@
+/* Style the body element */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('nawinn.jpg');
+    background-size: cover;
+    color:#b1aaaa;
+      
+  }
+  
+  /* Style the countdown container */
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 6rem;
+  }
+  
+  /* Style the countdown boxes */
+  .countdown div {
+    margin: 0 2rem;
+    text-align: center;
+  }
+  
+  /* Style the countdown labels */
+  .countdown span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:light whitesmoke;
+  }
+  
+  /* Style the countdown numbers */
+  .countdown span:first-child {
+    font-size: 4rem;
+    color: white;
+    box-shadow:2px 2px 2px 2px;
+  }
+  
+  /* Style the countdown boxes on smaller screens */
+  @media screen and (max-width: 768px) {
+    .countdown {
+      font-size: 4rem;
+    }
+    
+    .countdown div {
+      margin: 0 1rem;
+    }
+    
+    .countdown span:first-child {
+      font-size: 3rem;
+    }
+    
+    .countdown span {
+      font-size: 1.5rem;
+    }
+  }
+  
